@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                     SwiftSocket provides an easy way to create TCP or UDP clients and servers 💁
                    DESC
 
-  s.homepage     = 'https://github.com/swiftsocket/SwiftSocket'
+  s.homepage     = 'https://github.com/Madeira13/SocketSwift.git'
   
   s.license      = { :type => 'BSD' }
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.source   = {
-    :git => 'https://github.com/swiftsocket/SwiftSocket.git',
+    :git => 'https://github.com/Madeira13/SocketSwift.git',
     :tag => s.version
   }
   s.source_files  = 'Sources/**/*.{swift,c}'
